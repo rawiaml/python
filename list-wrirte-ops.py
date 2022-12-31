@@ -1,0 +1,2 @@
+colors = []
+print(colors)
