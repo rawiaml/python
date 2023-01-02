@@ -43,8 +43,8 @@ wget.download(url, 'C:/Users/A2M TRANSPORT/python/scripts/flagsBis')
 import zipfile
 
 from zipfile import ZipFile
-# url = "C:\\Users\\A2M TRANSPORT\\python\\scripts\\flagsBis\\flags (1).zip"
-with ZipFile('flags (1).zip', 'r') as zip_object:
+
+with ZipFile('flags.zip', 'r') as zip_object:
     zip_object.extractall()
     
     
